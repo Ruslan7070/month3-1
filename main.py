@@ -75,4 +75,4 @@ async def echo(message: types.Message) -> None:
 
 
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)4
+    executor.start_polling(dp, skip_updates=True)
